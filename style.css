@@ -33,16 +33,18 @@ nav ul li{
 .info{
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
+}
 
+.info2{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 0 20px;
 }
 
 .quote{
-    display: flex;
-    flex-direction: column;
     padding: 50px;
-    justify-content: center;
-    align-items: center;
     background-color: #E5E7EB;
     color: #1F2937;
 }
@@ -102,13 +104,16 @@ nav ul li{
     font-style: italic;  
     width: 50rem; 
     font-size: 36px;
+    margin: auto;
 }
 
 .autor{
-    display: flex;
-    justify-content: end;
-    align-items: end;
+    padding-top: 30px;
+    position: relative;
+    text-align: right;
     font-weight: 700;
+    justify-content: center;
+    margin-right: 30%;
 }
 
 .naslov-info{
@@ -116,6 +121,7 @@ nav ul li{
     font-size: 36px; 
     font-weight: 900; 
     justify-content: center; 
+    text-align: center;
     align-items: center;
     padding: 20px;
 }
@@ -131,6 +137,12 @@ nav ul li{
 
 .okvir{
     display: flex;
-    padding: 10px;
-    border-color: black;
+    justify-content: space-evenly;
+    padding: 50px;
+    background-color: gray;
+}
+
+a{
+    text-decoration: none;
+    color: #F9FAF8;
 }
