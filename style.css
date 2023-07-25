@@ -4,21 +4,30 @@ body{
     display: flex;
     flex-direction: column;
     margin: 0;
+    box-sizing: border-box;
 }
 
 .header{
+    height: 10vh;
     background-color: #1F2937;
     color: #F9FAF8;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 10px;
 }
 
-.right-header{
+nav{
     display: flex;
-    flex-direction: row;
-    justify-content: end;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 100px;
+}
+
+nav ul li{
+    display: inline-block;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+    justify-content: center;
+    padding-right: 10px;
 }
 
 .info{
@@ -52,6 +61,7 @@ body{
 }
 
 .footer{
+    height: 5vh;
     margin-top: auto;
     display: flex;
     align-items: center;
@@ -62,6 +72,16 @@ body{
 }
 
 .b1{
+    background-color: #3882F6;
+    border: none;
+    border-radius: 8px;
+    color: #F9FAF8;
+    width: 200px;
+    margin: 0;
+    padding: 10px;
+}
+
+.b2{
     background-color: #3882F6;
     border-color: #F9FAF8;
     border-radius: 8px;
@@ -98,4 +118,19 @@ body{
     justify-content: center; 
     align-items: center;
     padding: 20px;
+}
+
+.placeholder{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: gray;
+    color: #F9FAF8;
+    padding: 100px 300px 100px 300px;
+}
+
+.okvir{
+    display: flex;
+    padding: 10px;
+    border-color: black;
 }
