@@ -14,6 +14,14 @@ body{
     padding: 10px;
 }
 
+.header2{
+    display: flex; 
+    flex-direction: row; 
+    background-color: #1F2937; 
+    padding: 100px; 
+    justify-content: space-between;
+}
+
 nav{
     display: flex;
     align-items: center;
@@ -75,7 +83,7 @@ nav ul li{
 
 .b1{
     background-color: #3882F6;
-    border: none;
+    border-color: #3882F7;
     border-radius: 8px;
     color: #F9FAF8;
     width: 200px;
@@ -112,7 +120,7 @@ nav ul li{
     position: relative;
     text-align: right;
     font-weight: 700;
-    justify-content: center;
+    justify-content: left;
     margin-right: 30%;
 }
 
@@ -133,6 +141,7 @@ nav ul li{
     background-color: gray;
     color: #F9FAF8;
     padding: 100px 300px 100px 300px;
+    margin-left: 50px;
 }
 
 .okvir{
