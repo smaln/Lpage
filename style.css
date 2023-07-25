@@ -1,5 +1,19 @@
-.header{
+body{
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
 
+.header{
+    background-color: #1F2937;
+    color: #F9FAF8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
 }
 
 .info{
@@ -7,13 +21,61 @@
 }
 
 .quote{
-
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    color: #1F2937;
 }
 
 .action{
-
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 100px;
+    margin-bottom: 0;
+    padding: 50px;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border-radius: 10px;
 }
 
 .footer{
-    
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: rgb(50, 64, 92);
+    color: #F9FAF8;
+}
+
+button{
+    background-color: #3882F6;
+    border-color: #F9FAF8;
+    border-radius: 4px;
+    color: #F9FAF8;
+    width: 120px;
+    margin: 0;
+}
+
+.text{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parag{
+    font-style: italic;  
+    width: 800px; 
+    font-size: 36px;
+}
+
+.autor{
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    font-weight: 700;
 }
